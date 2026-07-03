@@ -50,7 +50,7 @@ Esta versión de la aplicación es compatible con:
 
 ## Compatibilidad con punto de venta `PosCajaFacil`
 
-- `PosCajaFacil` con `MySQL`
+- `PosCajaFacil 3.20`
 
 ## Descarga segura
 
