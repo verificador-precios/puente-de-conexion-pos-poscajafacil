@@ -1,7 +1,7 @@
 # PosCajaFacil puente de conexión POS
 
 <p align="center">
-  <img src="./images/arquitectura-instalacion-red-lan.png" width="500" alt="Ejemplo de una red LAN con un punto de venta y varios Verificadores de Precios conectados">
+  <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1783542709/assets/proyecto-verificador-precios/bridge-libp2p/images/arquitectura-instalacion-red-lan.png?v=2" width="500" alt="Ejemplo de una red LAN con un punto de venta y varios Verificadores de Precios conectados">
 </p>
 
 ## Introducción
@@ -9,7 +9,7 @@
 `PosCajaFacil puente de conexión POS` es una aplicación de escritorio que permite conectar nuestro `Verificador de Precios` con el punto de venta `PosCajaFacil`.
 
 <p align="center">
-  <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1783057215/assets/proyecto-verificador-precios/bridge-libp2p/poscajafacil/poscajafacil-home.png" width="720" alt="Vista general del panel principal de PosCajaFacil puente de conexión POS">
+  <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1783057215/assets/proyecto-verificador-precios/bridge-libp2p/poscajafacil/poscajafacil-home.png?v=2" width="720" alt="Vista general del panel principal de PosCajaFacil puente de conexión POS">
 </p>
 
 ## Guía rápida de configuración
@@ -77,7 +77,7 @@ Para que la aplicación funcione correctamente, es necesario aceptar el permiso 
 Nota: Para instalar la aplicación en `Windows`, **no se requieren permisos de administrador**.
 
 <p align="center">
-  <img src="./images/windows-11-installer-initial.png" width="450" alt="Ejemplo del instalador en Windows">
+  <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1780368340/assets/proyecto-verificador-precios/bridge-libp2p/win-11/windows-11-installer-initial.png?v=2" width="450" alt="Ejemplo del instalador en Windows">
 </p>
 
 ### Si Windows bloquea el instalador o la aplicación
@@ -94,7 +94,7 @@ En algunos equipos, `Windows` puede mostrar advertencias de seguridad al abrir e
 6. Haga clic en `Aceptar`.
 
 <p align="center">
-  <img src="./images/win-11-propiedades-instalador.png" width="420" alt="Ejemplo del desbloqueo del instalador desde Propiedades en Windows 10 y Windows 11">
+  <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1780104704/assets/proyecto-verificador-precios/bridge-libp2p/win-11/win-11-propiedades-instalador.png?v=2" width="420" alt="Ejemplo del desbloqueo del instalador desde Propiedades en Windows 10 y Windows 11">
 </p>
 
 #### Método 2: Omitir la advertencia de Windows SmartScreen
@@ -104,7 +104,7 @@ En algunos equipos, `Windows` puede mostrar advertencias de seguridad al abrir e
 3. Después, haga clic en `Ejecutar de todas formas`.
 
 <p align="center">
-  <img src="./images/win-10-smartscreen-1.png" width="420" alt="Ejemplo de Windows SmartScreen en Windows 10">
+  <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1780033662/assets/proyecto-verificador-precios/bridge-libp2p/win-10/win-10-smartscreen-1.png?v=2" width="420" alt="Ejemplo de Windows SmartScreen en Windows 10">
 </p>
 
 ### Permitir conexiones entrantes en el firewall de Windows
@@ -118,7 +118,7 @@ Si aparece esta ventana:
 3. Si Windows muestra opciones de red, permita el acceso según la política de su entorno.
 
 <p align="center">
-  <img src="./images/win-11-firewall-permiso-2.png" width="420" alt="Solicitud del permiso de firewall para permitir conexiones entrantes en Windows">
+  <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1780104704/assets/proyecto-verificador-precios/bridge-libp2p/win-11/win-11-firewall-permiso-2.png?v=2" width="420" alt="Solicitud del permiso de firewall para permitir conexiones entrantes en Windows">
 </p>
 
 Si desea confirmar después que el permiso quedó aplicado correctamente:
@@ -130,7 +130,7 @@ Si desea confirmar después que el permiso quedó aplicado correctamente:
 5. Verifique que la aplicación aparezca como permitida.
 
 <p align="center">
-  <img src="./images/win-11-firewall-permiso-1.png" width="520" alt="Ejemplo de verificación del permiso de firewall en Windows">
+  <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1780104704/assets/proyecto-verificador-precios/bridge-libp2p/win-11/win-11-firewall-permiso-1.png?v=2" width="520" alt="Ejemplo de verificación del permiso de firewall en Windows">
 </p>
 
 Si el permiso fue rechazado por error:
@@ -143,13 +143,13 @@ Si el permiso fue rechazado por error:
 6. Guarde los cambios y vuelva a abrir la aplicación.
 
 <p align="center">
-  <img src="./images/win-10-firewall-2.png" width="520" alt="Ejemplo de permiso del firewall en Windows 10">
+  <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1780033662/assets/proyecto-verificador-precios/bridge-libp2p/win-10/win-10-firewall-2.png?v=2" width="520" alt="Ejemplo de permiso del firewall en Windows 10">
 </p>
 
 ## Actualización de la aplicación
 
 <p align="center">
-  <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1783057215/assets/proyecto-verificador-precios/bridge-libp2p/poscajafacil/poscajafacil-update-install-content.png" width="420" alt="Ejemplo del aviso de actualización lista en PosCajaFacil puente de conexión POS">
+  <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1783057215/assets/proyecto-verificador-precios/bridge-libp2p/poscajafacil/poscajafacil-update-install-content.png?v=2" width="420" alt="Ejemplo del aviso de actualización lista en PosCajaFacil puente de conexión POS">
 </p>
 
 ### Actualización automática
@@ -185,7 +185,7 @@ Cuando la comunicación con el punto de venta se establezca correctamente, la ap
 ## Configuración de la aplicación
 
 <p align="center">
-  <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1781228538/assets/proyecto-verificador-precios/bridge-libp2p/cajafacil/cajafacil-app-config.png" width="720" alt="Ejemplo de la pantalla de configuración de la aplicación en PosCajaFacil puente de conexión POS">
+  <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1781228538/assets/proyecto-verificador-precios/bridge-libp2p/cajafacil/cajafacil-app-config.png?v=2" width="720" alt="Ejemplo de la pantalla de configuración de la aplicación en PosCajaFacil puente de conexión POS">
 </p>
 
 ### Cómo abrir la configuración
@@ -273,7 +273,7 @@ Si la aplicación no puede leer `PosCaja.Ini`, usará estos valores predetermina
 4. Compruebe la conexión.
 
 <p align="center">
-  <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1783057213/assets/proyecto-verificador-precios/bridge-libp2p/poscajafacil/poscajafacil-db-config-form.png" width="520" alt="Ejemplo del formulario de conexión de PosCajaFacil puente de conexión POS">
+  <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1783057213/assets/proyecto-verificador-precios/bridge-libp2p/poscajafacil/poscajafacil-db-config-form.png?v=2" width="520" alt="Ejemplo del formulario de conexión de PosCajaFacil puente de conexión POS">
 </p>
 
 ### Cuándo ajustar la carpeta de instalación
@@ -296,7 +296,7 @@ Ajuste la `Carpeta de instalación` en estos casos:
 Una vez que la aplicación esté abierta y conectada, podrá generar la liga de acceso para el `Verificador de Precios`.
 
 <p align="center">
-  <img src="./images/emparejar-asistente-red-lan.png" width="500" alt="Ejemplo del emparejamiento entre Verificador de Precios y el puente de conexión POS usando el asistente">
+  <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1783543013/assets/proyecto-verificador-precios/bridge-libp2p/images/emparejar-asistente-red-lan.png?v=2" width="500" alt="Ejemplo del emparejamiento entre Verificador de Precios y el puente de conexión POS usando el asistente">
 </p>
 
 ### Paso 1: Verificar la URL para conexión del servidor
@@ -304,7 +304,7 @@ Una vez que la aplicación esté abierta y conectada, podrá generar la liga de 
 Confirme que la aplicación ya muestre la `URL para conexión del servidor`.
 
 <p align="center">
-  <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1783057214/assets/proyecto-verificador-precios/bridge-libp2p/poscajafacil/poscajafacil-home-server-connection-url.png" width="520" alt="Ejemplo de la URL para conexión del servidor mostrada en la aplicación">
+  <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1783057214/assets/proyecto-verificador-precios/bridge-libp2p/poscajafacil/poscajafacil-home-server-connection-url.png?v=2" width="520" alt="Ejemplo de la URL para conexión del servidor mostrada en la aplicación">
 </p>
 
 ### Paso 2: Abrir el Asistente de URL de acceso
@@ -314,7 +314,7 @@ Confirme que la aplicación ya muestre la `URL para conexión del servidor`.
 3. Se abrirá una ventana para capturar la `URL del Verificador de Precios`.
 
 <p align="center">
-  <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1783057216/assets/proyecto-verificador-precios/bridge-libp2p/poscajafacil/poscajafacil-url-assistant-content.png" width="520" alt="Ejemplo del Asistente de URL de acceso para configurar Verificador de Precios">
+  <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1783057216/assets/proyecto-verificador-precios/bridge-libp2p/poscajafacil/poscajafacil-url-assistant-content.png?v=2" width="520" alt="Ejemplo del Asistente de URL de acceso para configurar Verificador de Precios">
 </p>
 
 ### Paso 3: Capturar correctamente la URL del Verificador de Precios
@@ -335,7 +335,7 @@ Ejemplo:
 6. Mediante la URL generada ya podrá acceder al **software Verificador de Precios emparejado a su punto de venta**.
 
 <p align="center">
-  <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1781156523/assets/proyecto-verificador-precios/bridge-libp2p/wincaja/wincaja-home-access-assistant.png" width="520" alt="Ejemplo de los botones Copiar y Abrir después de registrar la URL del Verificador de Precios">
+  <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1781156523/assets/proyecto-verificador-precios/bridge-libp2p/wincaja/wincaja-home-access-assistant.png?v=2" width="520" alt="Ejemplo de los botones Copiar y Abrir después de registrar la URL del Verificador de Precios">
 </p>
 
 ### Paso 5: Permitir el acceso a la red local en el navegador
@@ -345,7 +345,7 @@ Para una mejor compatibilidad, se recomienda usar el sitio web de `Verificador d
 Si abre el sitio web de `Verificador de Precios` en `Google Chrome`, es posible que el navegador solicite permiso para acceder a la `red local`. Acepte este permiso para que el sitio web pueda comunicarse correctamente con la `URL para conexión del servidor`.
 
 <p align="center">
-  <img src="./images/chrome-local-network-access-permission.png" width="540" alt="Ejemplo del permiso de acceso a la red local solicitado por Google Chrome">
+  <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1783543092/assets/proyecto-verificador-precios/bridge-libp2p/images/chrome-local-network-access-permission.png?v=2" width="540" alt="Ejemplo del permiso de acceso a la red local solicitado por Google Chrome">
 </p>
 
 Referencia:
@@ -373,7 +373,7 @@ También puede emparejar `Verificador de Precios` usando el `QR de conexión` qu
 3. Elija una de las opciones disponibles para leer el QR.
 
 <p align="center">
-  <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1783059614/assets/proyecto-verificador-precios/screenshots/direct-pos-database/poscajafacil-verificador-precios-prueba-com-mx-config-data-source-5d8e4da890.jpg" width="720" alt="Opciones de conexión rápida por QR en Verificador de Precios">
+  <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1783059614/assets/proyecto-verificador-precios/screenshots/direct-pos-database/poscajafacil-verificador-precios-prueba-com-mx-config-data-source-5d8e4da890.jpg?v=2" width="720" alt="Opciones de conexión rápida por QR en Verificador de Precios">
 </p>
 
 ### Paso 4: Emparejar usando el QR
@@ -397,7 +397,7 @@ Puede usar cualquiera de estas opciones:
 Si el sitio web no completa la conexión en `Google Chrome`, revise si el navegador mostró el permiso de acceso a la `red local` y acéptelo. Consulte también el [Paso 5: Permitir el acceso a la red local en el navegador](#paso-5-permitir-el-acceso-a-la-red-local-en-el-navegador).
 
 <p align="center">
-  <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1783059613/assets/proyecto-verificador-precios/screenshots/direct-pos-database/poscajafacil-verificador-precios-prueba-com-mx-config-data-source-23a42112c9.jpg" width="720" alt="Ejemplo de Verificador de Precios con la conexión establecida correctamente">
+  <img src="https://res.cloudinary.com/xadani-mexico/image/upload/v1783059613/assets/proyecto-verificador-precios/screenshots/direct-pos-database/poscajafacil-verificador-precios-prueba-com-mx-config-data-source-23a42112c9.jpg?v=2" width="720" alt="Ejemplo de Verificador de Precios con la conexión establecida correctamente">
 </p>
 
 ### Recomendaciones
