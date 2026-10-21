@@ -8,6 +8,8 @@
   <img src="https://poscajafacil.verificador-precios-prueba.com.mx/assets/image/pos/logo/poscajafacil-config-logo.png" alt="Logo de PosCajaFacil" height="100" align="middle" />
 </p>
 
+[⬇️ Descargar última versión](https://github.com/verificador-precios/puente-de-conexion-pos-poscajafacil/releases/latest)
+
 ## Introducción
 
 `PosCajaFacil puente de conexión POS` es una aplicación de escritorio que permite conectar nuestro `Verificador de Precios` con el punto de venta `PosCajaFacil`.
