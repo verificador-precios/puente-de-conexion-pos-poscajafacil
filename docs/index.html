@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es" data-bs-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Descargas de Software</title>
+
+    <!-- Bootstrap 5.3 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-body text-body">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary border-bottom">
+        <div class="container">
+            <a class="navbar-brand fw-semibold" href="#">
+                Descargas de Software
+            </a>
+            <span class="navbar-text">
+                Versiones Oficiales
+            </span>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="container py-5">
+        <div class="row justify-content-center">
+            <div class="col-12 col-md-10 col-lg-8 col-xl-7">
+
+                <div class="text-center mb-4">
+                    <h1 class="display-6 fw-semibold">
+                        Software Verificador de Precios
+                    </h1>
+                    <p class="lead text-body-secondary">
+                        Descarga la versión más reciente de nuestra aplicación.
+                    </p>
+                </div>
+
+                <!-- Download Card -->
+                <div class="card shadow-sm">
+                    <div class="card-body p-4 p-md-5 text-center">
+
+                        <h2 class="h4 mb-3">
+                            Última versión disponible
+                        </h2>
+
+                        <!-- Loading Indicator -->
+                        <div id="loading" class="mb-3">
+                            <div class="spinner-border spinner-border-sm text-primary" role="status">
+                                <span class="visually-hidden">Cargando...</span>
+                            </div>
+                            <span class="ms-2 text-body-secondary">
+                                Consultando la última versión...
+                            </span>
+                        </div>
+
+                        <!-- Version -->
+                        <p id="version" class="mb-4" aria-live="polite"></p>
+
+                        <!-- Download Button -->
+                        <a id="download" class="btn btn-primary btn-lg d-none" href="#">
+                            Descargar para Windows
+                        </a>
+
+                        <!-- Error Message -->
+                        <div id="status" class="alert alert-danger d-none mt-3" role="alert"></div>
+
+                    </div>
+
+                    <div class="card-footer text-center text-body-secondary py-3">
+                        Las descargas se realizan desde GitHub Releases.
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <!-- Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- GitHub Releases -->
+    <script>
+        const owner = "verificador-precios";
+        const repository = "puente-de-conexion-pos-wincaja";
+
+        async function loadLatestRelease() {
+            const loading = document.getElementById("loading");
+            const version = document.getElementById("version");
+            const download = document.getElementById("download");
+            const status = document.getElementById("status");
+
+            try {
+                const url =
+                    `https://api.github.com/repos/${owner}/${repository}/releases/latest`;
+
+                const response = await fetch(url, {
+                    headers: {
+                        Accept: "application/vnd.github+json"
+                    }
+                });
+
+                if (!response.ok) {
+                    throw new Error("Failed to fetch the latest release.");
+                }
+
+                const release = await response.json();
+
+                // Find the Windows installer
+                const installer = release.assets.find(asset =>
+                    asset.name.toLowerCase().endsWith(".exe") &&
+                    asset.name.toLowerCase().includes("setup")
+                );
+
+                if (!installer) {
+                    throw new Error("Windows installer not found.");
+                }
+
+                // Display release version
+                version.textContent = `Versión ${release.tag_name}`;
+
+                // Configure download button
+                download.href = installer.browser_download_url;
+                download.classList.remove("d-none");
+
+            } catch (error) {
+                console.error(error);
+
+                status.textContent =
+                    "La descarga no está disponible temporalmente. Inténtalo de nuevo más tarde.";
+
+                status.classList.remove("d-none");
+
+            } finally {
+                loading.classList.add("d-none");
+            }
+        }
+
+        loadLatestRelease();
+    </script>
+
+</body>
+
+</html>
