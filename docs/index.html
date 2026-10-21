@@ -85,7 +85,7 @@
     <!-- GitHub Releases -->
     <script>
         const owner = "verificador-precios";
-        const repository = "puente-de-conexion-pos-wincaja";
+        const repository = "puente-de-conexion-pos-poscajafacil";
 
         async function loadLatestRelease() {
             const loading = document.getElementById("loading");
@@ -112,7 +112,7 @@
                 // Find the Windows installer
                 const installer = release.assets.find(asset =>
                     asset.name.toLowerCase().endsWith(".exe") &&
-                    asset.name.toLowerCase().includes("setup")
+                    asset.name.toLowerCase().includes("win-x64")
                 );
 
                 if (!installer) {
